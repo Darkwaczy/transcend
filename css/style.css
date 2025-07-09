@@ -3892,7 +3892,7 @@ textarea.form-control {
     font-style: italic;
 }
 
-#ftco-loader {
+/* #ftco-loader {
     position: fixed;
     width: 96px;
     height: 96px;
@@ -3976,4 +3976,4 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
-}
+} */
