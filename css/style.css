@@ -2076,7 +2076,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #2e9e5b;
+    color: #ffffff;
     outline: none !important;
 }
 
@@ -2103,7 +2103,7 @@ h3,
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #000000 !important;
+        background: #a54e33  !important;
         position: relative;
         top: 0;
         padding-top: 0;
@@ -2197,7 +2197,7 @@ h3,
 .ftco-navbar-light .navbar-nav>.nav-item.active .nav-link {
     background: transparent;
     background: none;
-    color: #2e9e5b;
+    color: #ffffff;
 }
 
 @media (max-width: 991.98px) {
@@ -2473,15 +2473,15 @@ h3,
 }
 
 .btn.btn-secondary {
-    background: #fdb82c !important;
-    border: 1px solid #fdb82c !important;
+    background: #2e9e5b !important;
+    border: 1px solid #2e9e5b !important;
     color: #fff !important;
 }
 
 .btn.btn-secondary:hover {
-    border: 1px solid #fdb82c !important;
+    border: 1px solid #abffcc !important;
     background: transparent !important;
-    color: #fdb82c !important;
+    color: #abffcc  !important;
 }
 
 .project {
