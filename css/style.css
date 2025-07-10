@@ -1977,8 +1977,8 @@ h3,
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #000000  !important;
-        position: relative;
+        background: #0173c8   !important;
+        /* position: relative; */
         top: 0;
         padding-top: 0;
         padding-bottom: 0;
