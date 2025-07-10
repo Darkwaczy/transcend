@@ -2122,7 +2122,7 @@ h3,
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta>a {
-    color: #fff !important;
+    color: #2e9e5b !important;
     background: #2e9e5b;
     border: none !important;
     padding-top: 0.5rem !important;
@@ -2138,7 +2138,7 @@ h3,
 
 .ftco-navbar-light.scrolled .nav-item.cta>a span {
     display: inline-block;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 @media (max-width: 991.98px) {
