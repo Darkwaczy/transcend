@@ -1977,7 +1977,7 @@ h3,
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #0173c8   !important;
+        background: #ffffff   !important;
         /* position: relative; */
         top: 0;
         padding-top: 0;
@@ -2039,18 +2039,18 @@ h3,
         padding-right: 0;
         padding-bottom: 1rem;
         padding-top: 0;
-        color: #fff;
+        color: #0092ff ;
     }
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.cta>a {
     color: #ffffff;
-    border: 1px solid #2e9e5b;
+    border: 1px solid #0092ff;
     padding-top: .7rem;
     padding-bottom: .7rem;
     padding-left: 18px;
     padding-right: 18px;
-    background: #2e9e5b;
+    background: #0092ff;
     margin-top: 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -2071,7 +2071,7 @@ h3,
 .ftco-navbar-light .navbar-nav>.nav-item.active .nav-link {
     background: transparent;
     background: none;
-    color: #ffffff;
+    color: #0092ff;
 }
 
 @media (max-width: 991.98px) {
@@ -2082,7 +2082,7 @@ h3,
 
 .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #0092ff  !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -2118,12 +2118,12 @@ h3,
 }
 
 .ftco-navbar-light.scrolled .nav-item.active>a {
-    color: #2e9e5b !important;
+    color: #3f3f3f  !important;
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta>a {
     color: #2e9e5b !important;
-    background: #2e9e5b;
+    background: #0092ff;
     border: none !important;
     padding-top: 0.5rem !important;
     padding-bottom: .5rem !important;
@@ -2347,8 +2347,8 @@ h3,
 }
 
 .btn.btn-secondary {
-    background: #2e9e5b !important;
-    border: 1px solid #2e9e5b !important;
+    background: #0092ff !important;
+    border: 1px solid #0092ff !important;
     color: #fff !important;
 }
 
@@ -3008,7 +3008,7 @@ textarea.form-control {
     display: block;
     margin-bottom: 5px;
     text-transform: uppercase;
-    color: #2e9e5b;
+    color: #0092ff;
     letter-spacing: 2px;
 }
 
