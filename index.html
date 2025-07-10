@@ -150,50 +150,52 @@
     </div>
 </section>
 
-    <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about">
-        <div class="container">
-            <div class="row d-flex">
-                <div class="col-md-6 col-lg-4 d-flex">
-                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.webp);">
-                        <div class="request-quote py-5">
-                            <div class="py-2">
-                                <span class="subheading">Be Part of our Business</span>
-                                <h3>Request A Quote</h3>
+<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-6 col-lg-4 d-flex">
+                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.webp);">
+                    <div class="request-quote py-5">
+                        <div class="py-2">
+                            <span class="subheading">Be Part of our Business</span>
+                            <h3>Request A Quote</h3>
+                        </div>
+                        <form class="request-form ftco-animate" onsubmit="openEmail(event)">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="first-name" placeholder="First Name" disabled>
                             </div>
-                            <form action="#" class="request-form ftco-animate">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name">
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-field">
-                                        <div class="select-wrap">
-                                            <!-- <select name="" id="" class="form-control">
-	                      	<option value="">Select Your Services</option>
-	                        <option value="">Construction</option>
-	                        <option value="">Renovation</option>
-	                        <option value="">Interior Design</option>
-	                        <option value="">Exterior Design</option>
-	                        <option value="">Painting</option>
-	                      </select> -->
-                                        </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="last-name" placeholder="Last Name" disabled>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <div class="select-wrap">
+                                        <select id="service" class="form-control" disabled>
+                                            <option value="">Select Service</option>
+                                            <option value="hardware">Hardware Solutions</option>
+                                            <option value="equipment">Industrial Equipment</option>
+                                        </select>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Phone">
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Request A Quote" class="btn btn-secondary py-3 px-4">
-                                </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phone" placeholder="Phone" disabled>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" cols="30" rows="2" class="form-control" placeholder="Message" disabled></textarea>
+                            </div>
+                            <div class="form-group">
+                                <a href="mailto:macrotechshowcase@caloforniamail.com?subject=Quote Request&body=Please provide a quote for my needs." class="btn btn-secondary py-3 px-4">Request A Quote</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
                 <div class="col-md-6 col-lg-8 pl-lg-5 py-5">
                     <div class="row justify-content-start pb-3">
                         <div class="col-md-12 heading-section ftco-animate">
@@ -565,23 +567,39 @@
                 </div>
             </div>
             
-            <div class="col-md-6 col-lg-3 d-flex">
-                <div class="align-self-stretch box p-4 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fas fa-paper-plane"></span>
-                    </div>
-                    <h3 class="mb-4">Email Address</h3>
-                    <p><a>fulizanotechnology
-                        @californiamail.com <br> info@fulizanotech.com</a></p>
-                </div>
-            </div>
+           <div class="col-md-6 col-lg-3 d-flex">
+    <div class="align-self-stretch box p-4 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fas fa-paper-plane"></span>
+        </div>
+        <h3 class="mb-4">Email Address</h3>
+        <p><a href="mailto:macrotechshowcase@californiamail.com">macrotechshowcase@californiamail.com</a></p>
+    </div>
+</div>
+<style>
+    .box p a {
+        max-width: 100%; /* Ensures the link doesn’t exceed the container */
+        display: inline-block; /* Allows width constraints */
+        word-break: break-all; /* Breaks the email at any character if needed */
+        overflow-wrap: break-word; /* Breaks long words to next line */
+        word-wrap: break-word; /* Legacy support for word breaking */
+    }
+    @media (max-width: 768px) {
+        .box p a {
+            font-size: 14px; /* Reduces font size on mobile */
+            padding: 0 10px; /* Adds padding to prevent tight edges */
+        }
+    }
+</style>
+
+
             <div class="col-md-6 col-lg-3 d-flex">
                 <div class="align-self-stretch box p-4 text-center">
                     <div class="icon d-flex align-items-center justify-content-center">
                         <span class="fas fa-globe"></span>
                     </div>
                     <h3 class="mb-4">Website</h3>
-                    <p><a href="#">fulizanotech.com </a></p>
+                    <p><a href="#">https://macrofulizano.com/ </a></p>
                 </div>
             </div>
         </div>
@@ -634,7 +652,7 @@ Source for Hardware Solutions.</p>
 </span></li>
     <li><a href="#"><span class="fas fa-phone"></span><span class="text"> +1 (216)769-7374</a></li>
          <li><a href="#"><span class="fas fa-phone"></span><span class="text"> +1 (579)678-2021</a></li>
-    <li><a href="#"><span class="fas fa-envelope"></span> info@fulizanotech.com</span></a></li>
+    <li><a href="#"><span class="fas fa-envelope"></span> macrotechshowcase@caloforniamail.com</span></a></li>
 </ul>
                         </div>
                     </div>
